@@ -1,2 +1,2 @@
 # Bloggit-
-This is a blogging
+This is a blogging website
