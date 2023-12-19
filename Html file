@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+    <!--
+        -primary meta tags
+    -->
+    <title>Bloggit - Hey, Welcome to Bloggit. Explore our stories and ideas.</title>
+    <meta name="title" content="Bloggit - Hey, Welcome to Bloggit. Explore our stories and ideas.">
+    <meta name="description" content="This is a blog html template created by Samarth">
+
+    <!--
+        - favicon
+    -->
+    <link rel="shortcut icon" href="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\d0c514d2a2c22db84f2f96f90a3f5fb6.svg" type="image/svg+xml">
+
+    <!--
+        - custom css link
+    -->
+
+    <link rel="stylesheet" href="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--
+        **Header
+    -->
+
+    <header class="header section" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\d0c514d2a2c22db84f2f96f90a3f5fb6.svg" width="250" height="100" alt="Bloggit Logo">
+            </a>
+
+            <div class="container">
+                <label class="toggle_label">
+                    <input type="checkbox" id="mode" class="toggle">
+                    <span class="slider round">
+                        <i class="fa-solid fa-moon fa-lg fa-spin moon"></i>
+                        <i class="fa-solid fa-sun fa-spin fa-lg sun"></i>
+                    </span>
+                </label>
+            </div>
+
+
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover:underline" data-nav-link>Membership</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="wrapper">
+
+                <button class="search-btn" aria-label="search" data-search-toggler>
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">search</span>
+                </button>
+
+                <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                    <span class="span one"></span>
+                    <span class="span two"></span>
+                    <span class="span three"></span>
+                </button>
+
+                <a href="#" class="btn">Join</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--
+        **Search Bar
+    -->
+
+    <div class="search-bar" data-search-bar>
+
+        <div class="input-wrapper">
+            <input type="search" name="search" placeholder="search" class="input-field">
+
+            <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+
+        <p class="search-bar-text">Please enter atleast 2 characters</p>
+
+    </div>
+
+    <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+    <main>
+        <article>
+            
+            <!--
+                *SUPERHERO
+            -->
+
+            <section class="section superhero" aria-label="home">
+                <div class="container">
+
+                    <h1 class="h1 superhero-title">
+                        <strong class="strong">Hey, Welcome to Bloggit.</strong>Explore our stories and ideas.
+                    </h1>
+
+                    <div class="wrapper">
+
+                        <form action="" class="newsletter-form">
+                            <input type="email" name="email-address" placeholder="Your email address" class="email-field">
+
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+
+                        <p class="newsletter-text">
+                            Get the email newsletter and unlock access to members-only content and updates.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--
+                **Featured Post
+            -->
+
+            <section class="section featured" aria-label="featured post">
+                <div class="container">
+
+                    <p class="section-subtitle">
+                        Get started with our <strong class="strong">best stories</strong>
+                    </p>
+
+                    <ul class="has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 700">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 1-_1.jpg" width="600" height="700" loading="lazy" alt="New technology is not good or evil for and of itself" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height:150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 1.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <ul class="card-meta-list">
+                                    <li>
+                                        <a href="#" class="card-tag">Design</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-tag">Idea</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-tag">Review</a>
+                                    </li>
+
+                                </ul>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title hover:underline">
+                                        Exploring the Ethical Implications of AI in Healthcare
+                                    </a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Delve into the ethical considerations surrounding AI's integration in healthcare, weighing the benefits of innovation against the critical aspects of patient privacy and safety.
+                                </p>
+
+                            </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 700;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 2_1.jpg" height="700" width="600" loading="lazy" alt="It's a new era, there are no rules" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height:150;">
+                                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 2.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                            </a>
+                                    </li>
+
+                                </ul>
+                            </figure>
+
+                            <div class="card-content">
+                                <ul class="card-meta-list">
+                                    <li>
+                                        <a href="#" class="card-tag">Creative</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-tag">Product</a>
+                                    </li>
+
+                                </ul>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title hover:underline">It's a new era, there are no rules</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Delve into the ethical considerations surrounding AI's integration in healthcare, weighing the benefits of innovation against the critical aspects of patient privacy and safety.
+                                </p>
+                            </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 700;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 3.jpg" width="600" height="700" loading="lazy" alt="Perfection is related to the final outcome or result." class="img-cover">
+
+                                <ul class="avatar-list absolute">
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height:150;">
+                                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 2.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                            </a>
+                                    </li>
+
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <ul class="card-meta-list">
+                                        
+                                        <li>
+                                            <a href="#" class="card-tag">Design</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Creative</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Idea</a>
+                                        </li>
+
+                                    </ul>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title hover:underline">Perfection is related to the final outcome or result.</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Perfection is an ideal or state characterized by flawlessness, precision, and excellence. It represents the highest standard or quality achievable in a particular context, often pursued but seldom fully attained due to the subjective nature of human judgment and the inherent imperfections of reality. Despite its elusive nature, the pursuit of perfection serves as a driving force for improvement, innovation, and the continual refinement of skills and creations across various domains. 
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 700;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 4.jpg" width="600" height="700" loading="lazy" alt="Everyone has a different life story" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 4.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 5.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <ul class="card-meta-list">
+
+                                        <li>
+                                            <a href="#" class="card-tag">People</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Story</a>
+                                        </li>
+
+
+                                    </ul>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title hover:underline">
+                                            Each person possesses a unique narrative to their life.  
+                                        </a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        This statement emphasizes the individuality and distinct experiences that shape every person's life. It acknowledges that each individual carries a personal story composed of their own encounters, choices, challenges, and triumphs, making their journey through life entirely their own. It highlights the diversity of human experiences, perspectives, and circumstances that contribute to the richness and complexity of each person's life story.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 700;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 5.jpg" height="700" width="600" loading="lazy" alt="The uniqueness is quality" class="img-cover">
+                                
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 5.jpg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <ul class="card-meta-list">
+                                        <li>
+                                            <a href="#" class="card-tag">Design</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Lifestyle</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Idea</a> 
+                                        </li>
+
+                                    </ul>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title hover:underline">
+                                            The differnce is quality
+                                        </a>
+                                    </h3>
+                                    <p class="card-text">
+                                        This statement implies that quality is the defining factor that sets things apart. It suggests that variations or distinctions between entities, ideas, or products can be primarily attributed to differences in their quality. It emphasizes the importance of assessing and recognizing the varying levels of excellence, superiority, or value present among different things or aspects.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 600; --height:700;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 6.jpg" width="600" height="700" loading="lazy" alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 6.jpg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+                                    <ul class="card-meta-list">
+
+                                        <li>
+                                            <a href="#" class="card-tag">Idea</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Creating</a>
+                                        </li>
+
+                                    </ul>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title hover:underline">
+                                            Problems are not stop signs, they are guidelines
+                                        </a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        This quote suggests that obstacles or challenges should not be viewed as barriers to halt progress, but rather as indicators or pointers that can offer direction or insight. It encourages a perspective that perceives problems not as insurmountable barriers, but as opportunities for learning, growth, and guidance in navigating towards a solution.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--
+                **Recent Post 
+            -->
+
+
+
+
+
+
+
+
+            <section class="section recent" aria-label="recent post">
+                <div class="container">
+
+                    <div class="title-wrapper">
+
+                        <h2 class="h2 section-title">
+                            See what we have<strong class="strong">written lately</strong>
+                        </h2>
+
+                        <div class="top-author">
+                            <ul class="avatar-list">
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar large img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 1.jpeg" width="150" height="150" alt="top author" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar large img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 2.jpeg" width="150" height="150" alt="top author" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar large img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 3.jpeg" width="150" height="150" alt="top author" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar large img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 4.jpeg" width="150" height="150" alt="top author" class="img-cover">
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <span class="span">Meet the top authors</span>
+                        </div>
+
+                    </div>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 650; --height: 760;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recent 1.jpg" width="650" height="760" loading="lazy" alt="Creating is a privilage but it's also a gift" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 6.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                        </a>
+                                    </li>
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 3.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                        </a>
+                                    </li>
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <ul class="card-meta-list">
+
+                                        <li>
+                                            <a href="#" class="card-tag">Lifestyle</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">People</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Review</a>
+                                        </li>
+
+                                    </ul>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title hover:underline">Creating is a privilage and also a gift</a>
+                                    </h3>
+
+                                    <p class="card-text">This statement implies that the act of creation is both an honor and a special talent bestowed upon individuals. It suggests that the ability to create, whether it's in the form of art, innovation, ideas, or any other creative endeavor, is a privilege that brings with it a sense of responsibility and appreciation for the unique capacity to generate something new and meaningful.</p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 650; --height: 760">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recent 2.jpg" width="650" height="760" loading="lazy" alt="Being unique is better than being perfect" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 4.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                        </a>
+                                    </li>
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                  <ul class="card-meta-list">
+
+                                    <li>
+                                        <a href="#" class="card-tag">Design</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-tag">Product</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-tag">Idea</a>
+                                    </li>
+                                  </ul>
+                                  
+                                  <h3 class="h3">
+                                    <a href="#" class="card-title hover:underline">
+                                        Being unique is better than being perfect.
+                                    </a>
+                                  </h3>
+
+                                  <p class="card-text">
+                                    This statement advocates for the value of individuality and distinctiveness over striving for flawlessness or perfection. It suggests that embracing one's uniqueness, with all its quirks and imperfections, holds more significance and authenticity than trying to conform to an idealized standard of perfection. It emphasizes the beauty and strength found in embracing one's originality, differences, and personal authenticity rather than pursuing an unattainable standard of flawlessness.
+                                  </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width:650; --height: 760;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recent 3.jpg" width="650" height="760" loading="lazy"
+                                alt="Now we're getting somewhere" class="img-cover">
+
+                                <ul class="avatar-list absolute">
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 5.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 2.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <ul class="card-meta-list">
+
+                                        <li>
+                                            <a href="#" class="card-tag">Idea</a>
+                                        </li> 
+
+                                        <li>
+                                            <a href="#" class="card-tag">Product</a>
+                                          </li>
+                      
+                                          <li>
+                                            <a href="#" class="card-tag">Review</a>
+                                          </li>
+
+                                    </ul>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title hover:underline">
+                                            Now we are getting somewhere
+                                        </a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        This phrase implies progress or advancement in a situation or conversation. It suggests that positive momentum or a breakthrough is being made, indicating a sense of achievement or a step forward toward a goal or understanding.
+                                    </p>
+                                </div>
+                            </div>
+                            </li>
+
+                            <li>
+
+                                <div class="blog-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 650; --height: 760;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recent 4.jpg" width="650" height="760" loading="lazy" alt="The trick is getting more done is to have the freedom to roam around" class="img-cover">
+
+                                    <ul class="avatar-list absolute">
+
+                                        <li class="avatar-item">
+                                          <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 1.jpeg" width="150" height="150" loading="lazy" alt="Author"
+                                              class="img-cover">
+                                          </a>
+                                        </li>
+
+                                        </ul>
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <ul class="card-meta-list">
+                      
+                                          <li>
+                                            <a href="#" class="card-tag">Lifestyle</a>
+                                          </li>
+                      
+                                          <li>
+                                            <a href="#" class="card-tag">Design</a>
+                                          </li>
+                      
+                                        </ul>
+                      
+                                        <h3 class="h4">
+                                          <a href="#" class="card-title hover:underline">
+                                            The trick to getting more done is to have the freedom to roam around
+                                          </a>
+                                        </h3>
+
+                                        <p class="card-text">
+                                            This statement suggests that having the liberty or flexibility to move about, explore, and approach tasks or responsibilities from different perspectives can enhance productivity. It implies that a certain level of freedom or flexibility in how one manages their time or approaches their work can lead to increased efficiency and accomplishment. The ability to navigate various tasks or spaces freely may contribute positively to getting more work done effectively.
+
+                                        </p>
+                                </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="blog-card">
+                  
+                                  <figure class="card-banner img-holder" style="--width: 650; --height: 760;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recent 5.jpg" width="650" height="760" loading="lazy"
+                                      alt="Every day, in every city and town across the country" class="img-cover">
+                  
+                                    <ul class="avatar-list absolute">
+                  
+                                      <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                                          <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 2.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                                            class="img-cover">
+                                        </a>
+                                      </li>
+                  
+                                      <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                                          <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 4.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                                            class="img-cover">
+                                        </a>
+                                      </li>
+                  
+                                    </ul>
+                                  </figure>
+
+                                  <div class="card-content">
+
+                                    <ul class="card-meta-list">
+
+                                        <li>
+                                            <a href="#" class="card-tag">People</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Story</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="card-tag">Lifestyle</a>
+                                        </li>
+                                    </ul>
+
+                                    <h3 class="h3">
+
+                                        <a href="#" class="card-title hover:underline">
+                                            Every day, in every city and town across the country 
+                                        </a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        The phrase "Every day, in every city and town across the country" sets the stage for a broad and inclusive statement or observation. It signifies a universal occurrence or a commonality that happens consistently in diverse locations throughout the nation. This phrase often introduces a discussion, story, or observation that pertains to widespread or shared experiences, emphasizing the pervasive nature of a particular phenomenon across various geographical areas.
+
+                                    </p>
+                                  </div>
+
+                                </div>
+                            </li>
+                            
+                            <li>
+
+                                <div class="blog-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 650; --height: 760;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recent 6.jpg" width="650" height="760" loading="lazy" alt="Your voice, your mind, your story, your vision" class="img-cover">
+
+                                    <ul class="avatar-list absolute">
+
+                                        <li class="avatar-item">
+                                            <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 3.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <ul class="card-meta-list">
+
+                                            <li>
+                                                <a href="#" class="card-tag">People</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="card-tag">Review</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" class="card-tag">Story</a>
+                                            </li>
+                                        </ul>
+
+                                        <h3 class="h3">
+                                            <a href="#" class="card-title hover:underline">
+                                                Your voice, your mind, your story, your vision
+                                            </a>
+                                        </h3>
+
+                                        <p class="card-text">
+                                            That's a beautiful sentiment! Our individual voices, thoughts, experiences, and perspectives shape our unique stories and visions of the world. Each person's voice carries a distinct tone, their mind holds vast ideas and knowledge, their story reflects personal journeys, and their vision paints a picture of the future they aspire to create. Embracing and sharing these elements can lead to powerful connections, understanding, and the enrichment of our collective human experience.
+                                        </p>
+                                    </div>
+                                </div>    
+                            </li>
+                    </ul>
+
+                    <button class="btn">Load more</button>
+                </div>
+            </section>
+
+
+
+
+
+            <!--
+                ***Recommended Post
+            -->
+
+            <section class="section recommended" aria-label="recomended post">
+
+                <p class="section-subtitle">
+                    <strong class="strong">Recommended</strong>
+                </p>
+
+                <ul class="grid-list">
+                    <li>
+                        <div class="blog-card">
+
+                            <figure class="card-banner img-holder" style="--width: 400; --height: 460;">
+                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recomended 1.jpg" width="400" height="460" loading="lazy" alt="Having the freedom to move around is the key to achieving greater productivity." class="img-cover">
+
+                            <ul class="avatar-list absolute">
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 1.jpeg" width="150" height="150" loading="lazy" alt="Author" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 2.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <h3 class="h5">
+                                    <a href="#" class="card-title hover:underline">Having the freedom to move around is the key to achieving greater productivity.</a>
+                                </h3>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="blog-card">
+
+                            <figure class="card-banner img-holder" style="--width: 400; --height: 460;">
+                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recomended 2.jpg" width="400" height="460" loading="lazy" alt="Every day, in every city and town across the country" class="img-cover">
+
+                            <ul class="avatar-list absolute">
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 3.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <h3 class="h5">
+                                    <a href="#" class="card-title hover:underline">
+                                        Every day, in every town across the country
+                                    </a>
+                                </h3>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="blog-card">
+
+                            <figure class="card-banner img-holder" style="--width: 400; --height: 460;">
+                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recomended 3.jpg" width="400" height="460" loading="lazy" alt="author" class="img-cover">
+
+                            <ul class="avatar-list absolute">
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\featured 4.jpg" height="150" width="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <h3 class="h5">
+                                    <a href="#" class="card-title hover:underline">
+                                        I work my best when my space id filled with inspiration
+                                    </a>
+                                </h3>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="blog-card">
+
+                            <figure class="card-banner img-holder" style="--width: 400; --height: 460;">
+                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recomended 4.jpg" height="460" width="400" loading="lazy" alt="author" class="img-cover">
+
+                            <ul class="avatar-list absolute">
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 5.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 6.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <h3 class="h5">
+                                    <a href="#" class="card-title hover:underline">
+                                        I have my own definition of minimalism
+                                    </a>
+                                </h3>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="blog-card">
+
+                            <figure class="card-banner img-holder" style="--width: 400; --height: 460;">
+                            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recomended 5.jpg" width="400" height="460" loading="lazy" alt="author" class="img-cover">
+
+                            <ul class="avatar-list absolute">
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 6.jpeg" height="150" width="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li class="avatar-item">
+                                    <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                    <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 1.jpeg" width="150" height="150" loading="lazy" alt="author" class="img-cover">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </figure>
+
+                            <div class="card-content">
+
+                                <h3 class="h5">
+                                    <a href="#" class="card-title hover:underline">
+                                        Change your look and change your attitude
+                                    </a>
+                                </h3>
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="blog card">
+
+                            <figure class="card-banner img-holder" style="--width: 400; --height: 460;">
+                                <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\recomended 6.jpg" width="400" height="460" loading="lazy" alt="author" class="img-cover">
+    
+                                <ul class="avatar-list absolute">
+    
+                                    <li class="avatar-item">
+                                        <a href="#" class="avatar img-holder" style="--width: 150; --height: 150;">
+                                        <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\author 3.jpeg" height="150" width="150" loading="lazy" alt="author" class="img-cover">
+                                        </a>
+                                    </li>
+    
+                                </ul>
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h5">
+                                        <a href="#" class="card-title hover:underline">The difference is quality</a>
+                                    </h3>
+
+                                </div>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </div>
+            </section>
+
+
+            
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Subscribe to <strong class="strong">new posts</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\images\d0c514d2a2c22db84f2f96f90a3f5fb6.svg" width="250" height="100" alt="Bloggit logo">
+          </a>
+
+          <p class="footer-text">
+            A minimal, functional theme for running a paid-membership publication on Ghost.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-vimeo"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Vimeo</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Style Guide</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">404</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Testimonial</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Membership</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Membership</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Subscribe</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Tags</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Authors</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Bloggit 2023. Published by <a href="#" class="copyright-link hover:underline">Samarth Shukla</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="C:\Users\paart\OneDrive\Desktop\Vscode-Codes\Bloggitt!!!\Assets\script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+        </article>
+        
+    </main>
+</body>
+</html>
